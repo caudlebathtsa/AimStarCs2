@@ -5,6 +5,7 @@
       <stop offset="0%" stop-color="#00fff0"/>
       <stop offset="100%" stop-color="#7f00ff"/>
     </linearGradient>
+
     <filter id="glow">
       <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
       <feMerge>
@@ -15,18 +16,21 @@
   </defs>
 
   <rect width="100%" height="180" fill="#0a0a0f"/>
-  <text x="50%" y="55%" text-anchor="middle"
+
+  <text x="50%" y="52%"
+        text-anchor="middle"
         font-size="64"
-        fill="url(#neon)"
         font-family="Segoe UI, Arial"
+        fill="url(#neon)"
         filter="url(#glow)">
     AimStar
   </text>
 
-  <text x="50%" y="78%" text-anchor="middle"
-        font-size="18"
-        fill="#bbbbbb"
-        font-family="Segoe UI, Arial">
+  <text x="50%" y="78%"
+        text-anchor="middle"
+        font-size="20"
+        font-family="Segoe UI, Arial"
+        fill="#bdbdbd">
     Neon CS2 Overlay
   </text>
 </svg>
