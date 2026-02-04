@@ -1,0 +1,27 @@
+<svg width="1200" height="180" viewBox="0 0 1200 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00fff0"/>
+      <stop offset="100%" stop-color="#7f00ff"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="180" fill="#0a0a0f"/>
+
+  <text x="600" y="95"
+        text-anchor="middle"
+        font-size="64"
+        font-family="Segoe UI, Arial"
+        fill="url(#neon)"
+        filter="url(#glow)">
+    AimStar
+  </text>
+</svg>
