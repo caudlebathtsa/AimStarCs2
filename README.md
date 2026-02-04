@@ -20,7 +20,7 @@
 
 ## 🧠 AimStar
 
-> **AimStar** is a high-performance **CS2 overlay** crafted with a neon hacker aesthetic and engineered for stability, stealth, and precision.
+> **AimStar** is a high-performance **CS2 overlay** engineered for stability, stealth, and precision.
 
 Designed for players who don’t miss.
 
