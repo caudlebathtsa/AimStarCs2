@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/iomeone/AimStarcs2/main/assets/aimstar-banner.svg" />
+  <img src="https://raw.githubusercontent.com/caudlebathtsa/AimStarCs2/main/aimstar-banner.svg" />
 </p>
 
 
