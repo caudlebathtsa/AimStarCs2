@@ -20,9 +20,15 @@
 
 ## 🧠 AimStar
 
-> **AimStar** is a high-performance **CS2 overlay** engineered for stability, stealth, and precision.
+> **AimStar** is a high-performance **CS2 overlay** engineered for stealth, stability, and precision.
 
-Designed for players who don’t miss.
+---
+
+## 👁️ Live Preview
+
+<p align="center">
+  <img src="https://github.com/iomeone/AimStarcs2/blob/main/Image2.png?raw=true" width="900" alt="AimStar CS2 Overlay Preview" />
+</p>
 
 ---
 
