@@ -1,5 +1,35 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00fff0,100:7f00ff&height=180&section=header&text=AimStar&fontSize=60&fontColor=ffffff&animation=twinkling" />
+<svg width="100%" height="180" viewBox="0 0 1200 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00fff0"/>
+      <stop offset="100%" stop-color="#7f00ff"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="180" fill="#0a0a0f"/>
+  <text x="50%" y="55%" text-anchor="middle"
+        font-size="64"
+        fill="url(#neon)"
+        font-family="Segoe UI, Arial"
+        filter="url(#glow)">
+    AimStar
+  </text>
+
+  <text x="50%" y="78%" text-anchor="middle"
+        font-size="18"
+        fill="#bbbbbb"
+        font-family="Segoe UI, Arial">
+    Neon CS2 Overlay
+  </text>
+</svg>
 </p>
 
 <p align="center">
